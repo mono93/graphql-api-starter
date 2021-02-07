@@ -1,0 +1,44 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A server side project for a full stack starter project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mono93/fullstack-starter-project.git"
+  },
+  "keywords": [
+    "backend",
+    "node",
+    "fullstack"
+  ],
+  "author": "Monojit Saha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mono93/fullstack-starter-project/issues"
+  },
+  "homepage": "https://github.com/mono93/fullstack-starter-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "express-validator": "^6.9.0",
+    "graphql": "^15.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.9",
+    "multer": "^1.4.2",
+    "socket.io": "^3.0.4",
+    "uuid": "^8.3.2",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
